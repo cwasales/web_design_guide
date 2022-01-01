@@ -1,7 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="K Wilford">
+  
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+  
+  <link href="styles/myStyles.css" rel="stylesheet">
+  </head>
+  <body>
+  
+  <header class="logoDesign">
+   Kristin's Web Design Guide
 
-<?php include('navBar.php'); ?>
+</header>
 
-
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="pg2.html">Fonts</a>
+  <a href="pg3.html">Page Layout</a>
+  <a href="pg4.html">Form Elements</a>
+  <a href="pg5.html">Element Styles</a> 
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
 <div class="container">
  <div class="row">
@@ -72,16 +104,25 @@
     <h2 class="text-center">Grid System 2</h2>
 	<img src="images/four.gif" class="img-fluid">
   
-  </div>
-  
-  </div>
-</div> 
-<br><br>
+  </div>  
+</div><br><br>
+</div>  
+ 
+<footer class="fixed-footer">
 
-<!-- https://www.w3schools.com/html/html_layout.asp -->
+Copyright &copy; 2022 All rights reserved by K Wilford
 
+</footer>
 
-<?php include 'footer.php'; ?>	
-
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
 </html>

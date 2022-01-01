@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  <title></title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="K Wilford">
-  
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-  
- <style>*{
+*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -34,7 +11,7 @@ body{
 	
 
 .logoDesign{
-	background-image: url("images/logo.png");
+	background-image: url("../images/logo.png");
     background-repeat: no-repeat;
     background-position: left, top;
 	background-size: 50px 50px; 
@@ -206,32 +183,3 @@ img{
   }  
   
 }
-
-</style> 
-    
-</head>
-
-
-
-
-
-<header class="logoDesign">
-   Kristin's Web Design Guide
-
-</header>
-
-<div class="topnav" id="myTopnav">
-  <a href="index.php">Home</a>
-  <a href="pg2.php">Fonts</a>
-  <a href="pg3.php">Page Layout</a>
-  <a href="pg4.php">Form Elements</a>
-  <a href="pg5.php">Element Styles</a> 
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-
-
-
-
-<body>
